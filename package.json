@@ -1,0 +1,19 @@
+{
+  "name": "ray-ray-react-boilerplate",
+  "version": "0.0.1",
+  "description": "React boilerplate for Ray Ray as he always seems to forget something",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulp959/ray-ray-react-boilerplate.git"
+  },
+  "author": "Rahul A. Parkar",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/rahulp959/ray-ray-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/rahulp959/ray-ray-react-boilerplate#readme"
+}
