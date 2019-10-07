@@ -1,6 +1,6 @@
 {
   "name": "ray-ray-react-boilerplate",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "React boilerplate for Ray Ray as he always seems to forget something",
   "main": "index.js",
   "scripts": {
