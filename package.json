@@ -4,7 +4,10 @@
   "description": "React boilerplate for Ray Ray as he always seems to forget something",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "npm run lint && jest",
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,27 @@
   "bugs": {
     "url": "https://github.com/rahulp959/ray-ray-react-boilerplate/issues"
   },
-  "homepage": "https://github.com/rahulp959/ray-ray-react-boilerplate#readme"
+  "homepage": "https://github.com/rahulp959/ray-ray-react-boilerplate#readme",
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer": "^9.6.4",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "parcel-bundler": "^1.12.4",
+    "postcss-modules": "^1.4.1",
+    "react-test-renderer": "^16.10.2",
+    "sass": "^1.23.0",
+    "standard": "^14.3.1"
+  }
 }
